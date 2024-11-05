@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #003580;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.register {
+  background: #004aad;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.promotion, .calculator, .benefits, .how-it-works, .faq {
+  padding: 20px;
+  text-align: center;
+}
+
+.promotion h1 {
+  color: #003580;
+  font-size: 28px;
+}
+
+.register-btn {
+  background-color: #003580;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.calculator form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.calculator input, .calculator button {
+  padding: 8px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.calculator button {
+  background-color: #003580;
+  color: white;
+  cursor: pointer;
+}
+
+.benefits {
+  background-color: #003580;
+  color: white;
+  padding: 20px 0;
+}
+
+.benefit-item {
+  margin-top: 10px;
+}
+
+.how-it-works .steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step h3 {
+  font-size: 24px;
+  color: #003580;
+}
+
+.faq ul {
+  list-style: none;
+}
+
+.faq li {
+  cursor: pointer;
+  margin: 10px 0;
+  color: #003580;
+}
+
+.faq li:hover {
+  text-decoration: underline;
+}
+
+.note {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
